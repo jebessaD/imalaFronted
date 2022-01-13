@@ -1,0 +1,49 @@
+$primary:rgb(66, 97, 165);
+$secondary:rgb(201, 206, 211);
+$alert:rgb(206, 59, 39);
+$info:rgb(87, 117, 184);
+$warning:rgb(152, 157, 161);
+
+$input-btn-focus-color: "rgba($component-active-bg, .25) "!default;
+$utilities:() !default;
+$utilities:map-merge((
+    "round":(
+        property:border-radius,
+        class:rounded,
+        values:(
+            4:0.3rem,
+            5:0.5rem,
+            6:0.8rem,
+            7:0.8rem,
+            
+        )
+    
+    ),
+    "rb":(
+    property:  border-bottom-left-radius border-bottom-right-radius,
+    class:rounded,
+    values:(
+    bottom:0.6rem,
+    )
+
+    ),
+    "rt":(
+    property:  border-top-left-radius border-top-right-radius,
+    class:rounded,
+    values:(
+    top:0.6rem,
+    )
+
+    ),
+    "w":(
+        property:width,
+        class:w,
+        values:(
+        70:70%,
+        )
+    
+        ),
+), $utilities);
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
