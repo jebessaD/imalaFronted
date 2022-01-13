@@ -28,7 +28,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #4261a5;
-  --bs-secondary: #c9ced3;
+  --bs-secondary: #e1e2e2;
   --bs-success: #198754;
   --bs-info: #5775b8;
   --bs-warning: #989da1;
@@ -36,7 +36,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 66, 97, 165;
-  --bs-secondary-rgb: 201, 206, 211;
+  --bs-secondary-rgb: 225, 226, 226;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 87, 117, 184;
   --bs-warning-rgb: 152, 157, 161;
@@ -2102,15 +2102,15 @@ progress {
 }
 
 .table-secondary {
-  --bs-table-bg: #f4f5f6;
-  --bs-table-striped-bg: #e8e9ea;
+  --bs-table-bg: #f9f9f9;
+  --bs-table-striped-bg: #ededed;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #dcdddd;
+  --bs-table-active-bg: #e0e0e0;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #e2e3e4;
+  --bs-table-hover-bg: #e6e6e6;
   --bs-table-hover-color: #000;
   color: #000;
-  border-color: #dcdddd;
+  border-color: #e0e0e0;
 }
 
 .table-success {
@@ -3252,43 +3252,43 @@ fieldset:disabled .btn {
 
 .btn-secondary {
   color: #000;
-  background-color: #c9ced3;
-  border-color: #c9ced3;
+  background-color: #e1e2e2;
+  border-color: #e1e2e2;
 }
 
 .btn-secondary:hover {
   color: #000;
-  background-color: #d1d5da;
-  border-color: #ced3d7;
+  background-color: #e6e6e6;
+  border-color: #e4e5e5;
 }
 
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
   color: #000;
-  background-color: #d1d5da;
-  border-color: #ced3d7;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(171, 175, 179, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(171, 175, 179, 0.5);
+  background-color: #e6e6e6;
+  border-color: #e4e5e5;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(191, 192, 192, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(191, 192, 192, 0.5);
 }
 
 .btn-check:checked + .btn-secondary,
 .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active,
 .show > .btn-secondary.dropdown-toggle {
   color: #000;
-  background-color: #d4d8dc;
-  border-color: #ced3d7;
+  background-color: #e7e8e8;
+  border-color: #e4e5e5;
 }
 
 .btn-check:checked + .btn-secondary:focus,
 .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(171, 175, 179, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(171, 175, 179, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(191, 192, 192, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(191, 192, 192, 0.5);
 }
 
 .btn-secondary:disabled, .btn-secondary.disabled {
   color: #000;
-  background-color: #c9ced3;
-  border-color: #c9ced3;
+  background-color: #e1e2e2;
+  border-color: #e1e2e2;
 }
 
 .btn-success {
@@ -3572,36 +3572,36 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-secondary {
-  color: #c9ced3;
-  border-color: #c9ced3;
+  color: #e1e2e2;
+  border-color: #e1e2e2;
 }
 
 .btn-outline-secondary:hover {
   color: #000;
-  background-color: #c9ced3;
-  border-color: #c9ced3;
+  background-color: #e1e2e2;
+  border-color: #e1e2e2;
 }
 
 .btn-check:focus + .btn-outline-secondary, .btn-outline-secondary:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(201, 206, 211, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(201, 206, 211, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(225, 226, 226, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(225, 226, 226, 0.5);
 }
 
 .btn-check:checked + .btn-outline-secondary,
 .btn-check:active + .btn-outline-secondary, .btn-outline-secondary:active, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show {
   color: #000;
-  background-color: #c9ced3;
-  border-color: #c9ced3;
+  background-color: #e1e2e2;
+  border-color: #e1e2e2;
 }
 
 .btn-check:checked + .btn-outline-secondary:focus,
 .btn-check:active + .btn-outline-secondary:focus, .btn-outline-secondary:active:focus, .btn-outline-secondary.active:focus, .btn-outline-secondary.dropdown-toggle.show:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(201, 206, 211, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(201, 206, 211, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(225, 226, 226, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(225, 226, 226, 0.5);
 }
 
 .btn-outline-secondary:disabled, .btn-outline-secondary.disabled {
-  color: #c9ced3;
+  color: #e1e2e2;
   background-color: transparent;
 }
 
@@ -5616,13 +5616,13 @@ fieldset:disabled .btn {
 }
 
 .alert-secondary {
-  color: #505254;
-  background-color: #f4f5f6;
-  border-color: #eff0f2;
+  color: #5a5a5a;
+  background-color: #f9f9f9;
+  border-color: #f6f6f6;
 }
 
 .alert-secondary .alert-link {
-  color: #404243;
+  color: #484848;
 }
 
 .alert-success {
@@ -6035,19 +6035,19 @@ fieldset:disabled .btn {
 }
 
 .list-group-item-secondary {
-  color: #505254;
-  background-color: #f4f5f6;
+  color: #5a5a5a;
+  background-color: #f9f9f9;
 }
 
 .list-group-item-secondary.list-group-item-action:hover, .list-group-item-secondary.list-group-item-action:focus {
-  color: #505254;
-  background-color: #dcdddd;
+  color: #5a5a5a;
+  background-color: #e0e0e0;
 }
 
 .list-group-item-secondary.list-group-item-action.active {
   color: #fff;
-  background-color: #505254;
-  border-color: #505254;
+  background-color: #5a5a5a;
+  border-color: #5a5a5a;
 }
 
 .list-group-item-success {
@@ -7366,11 +7366,11 @@ fieldset:disabled .btn {
 }
 
 .link-secondary {
-  color: #c9ced3;
+  color: #e1e2e2;
 }
 
 .link-secondary:hover, .link-secondary:focus {
-  color: #d4d8dc;
+  color: #e7e8e8;
 }
 
 .link-success {
@@ -7860,7 +7860,7 @@ fieldset:disabled .btn {
 }
 
 .border-secondary {
-  border-color: #c9ced3 !important;
+  border-color: #e1e2e2 !important;
 }
 
 .border-success {
@@ -9047,6 +9047,30 @@ fieldset:disabled .btn {
 
 .w-70 {
   width: 70% !important;
+}
+
+.mt-6 {
+  margin-top: 6rem !important;
+}
+
+.mt-7 {
+  margin-top: 8rem !important;
+}
+
+.mt-8 {
+  margin-top: 10rem !important;
+}
+
+.mt-9 {
+  margin-top: 15rem !important;
+}
+
+.mt-sm-6 {
+  margin-top: 6rem !important;
+}
+
+.mt-sm-7 {
+  margin-top: 8rem !important;
 }
 
 @media (min-width: 576px) {

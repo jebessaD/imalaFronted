@@ -1,5 +1,5 @@
 $primary:rgb(66, 97, 165);
-$secondary:rgb(201, 206, 211);
+$secondary:rgb(225, 226, 226);
 $alert:rgb(206, 59, 39);
 $info:rgb(87, 117, 184);
 $warning:rgb(152, 157, 161);
@@ -40,6 +40,20 @@ $utilities:map-merge((
         class:w,
         values:(
         70:70%,
+        )
+    
+        ),
+
+    "mt":(
+        property: margin-top,
+        class:mt,
+        values:(
+        6:6rem,
+        7:8rem,
+        8:10rem,
+        9:15rem,
+        sm-6:6rem,
+        sm-7:8rem,
         )
     
         ),
