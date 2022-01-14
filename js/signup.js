@@ -20,9 +20,10 @@ form.addEventListener("submit",(e)=>{
 
                 position:'top-end',
                 icon: 'success',
-                title: 'Your records has been saved',
+                title: 'You have successfully registered',
                 showConfirmButton: false,
-                timer: 2000
+                timer: 2000,
+                button: false,
             }).then(function() {
                 window.location.href = 'login.html';
             });

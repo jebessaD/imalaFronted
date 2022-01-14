@@ -9066,10 +9066,26 @@ fieldset:disabled .btn {
 }
 
 .mt-sm-6 {
-  margin-top: 6rem !important;
+  margin-top: 5rem !important;
 }
 
 .mt-sm-7 {
+  margin-top: 7rem !important;
+}
+
+.mt-sm-8 {
+  margin-top: 8rem !important;
+}
+
+.mt-md-6 {
+  margin-top: 5rem !important;
+}
+
+.mt-md-7 {
+  margin-top: 7rem !important;
+}
+
+.mt-md-8 {
   margin-top: 8rem !important;
 }
 
