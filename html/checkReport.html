@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Report</title>
+    <title>checkReport</title>
     <link rel="stylesheet" href="../css/bootstrap.css" th:href="@{/css/bootstrap.css}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" th:href="@{https://use.fontawesome.com/releases/v5.4.1/css/all.css}">
     <link rel="icon" href="../images/icon.jpg" type="image/png">
@@ -15,8 +14,8 @@
 </head>
 
 <body>
-        <header>
-            <nav class="navbar bg-primary fixed-top p-1 shadow p-0 px-2 mb-0 rounded-bottom d-flex">
+    <header id="header" class="position-fixed top-0 w-100" >
+        <nav class="navbar bg-primary p-1 shadow p-0 px-2 mb-0 rounded-bottom d-flex">
                 <div class="col-3 "><img src="../images/imala.png" th:attr="src=@{/images/imala.png},title=#{imala logo},alt=#{imala logo}" class="img-fluid" alt="imala logo" width="150"></div>
 
                 <div class="navbar-expand text-end float-end">
@@ -39,40 +38,52 @@
         <main class="container text-center p-sm-2 mt-md-7">
             <div class="col col-sm-8 col-md-6 col-lg-4 shadow-lg mx-auto border rounded-7 alert-secondary px-4 my-4">
                 <h1 class="title text-primary my-3 ">REPORT</h1>
-
+                <p class="text-primary">Enter plate number you want to check reports record</p>
                 <form class="form-report">
 
                     <div class="form-group text-start small m-2">
                         <label for="plateNo">Plate Number</label>
                         <input type="text" class="form-control rounded rounded-5 bg-secondary" id="plateNo" placeholder="" required>
                     </div>
-                    <div class="form-group text-start small m-2">
-                        <label for="road">Line or road</label>
-                        <input type="text" class="form-control rounded rounded-5 bg-secondary" id="road" aria-describedby="roadHelp" placeholder="" required>
-                    </div>
-                    <div class="form-group text-start small m-2">
-                        <label for="FormControlTextarea" class="form-label">What do you observe?</label>
-                        <textarea class="form-control rounded rounded-5 bg-secondary" id="FormControlTextarea" rows="3"></textarea>
-                    </div>
-
+                   
                     <div class="form-group text-start small m-2 my-4 ">
-                        <button type="submit" class="btn btn-primary w-100 rounded rounded-5 submit_form">Report</button>
+                        <button type="submit" class="btn btn-primary w-100 rounded rounded-5 submit_form">Check</button>
                     </div>
-
-                    <div class="text-start m-2 my-4 ">
-                        <p class="text-start p-0 m-0 px-2 small"><a href="checkReport.html" class="text-primary text-decoration-none">CHECK REPORTS</a href="login.html"></p>
-                    </div>
-                
-                
             </form>
+            <div class="text-start m-2 my-4 ">
+                <p class="text-start p-0 m-0 px-2 small"><a href="report.html" class="text-primary text-decoration-none">Back to Report</a href="login.html"></p>
+            </div>
         </div>
+        <div class="border col col-sm-8 col-md-6 col-lg-4 shadow-lg mx-auto border rounded-7 alert-secondary px-4 my-md-5 ">
+            <table class="table ">
+                <tr class="text-center">
+                  <th colspan="2" class="text-primary lead fw-bold">REPORTS</th>
+                </tr>
+                <tr>
+                    <td class="text-start">Plate Number</td>
+                    <td class="text-start">32670</td>
+                </tr>
+                <tr>
+                    <td class="text-start">No. Reports</td>
+                    <td class="text-start">12</td>
+                </tr>
+            </table>
+            <div class="text-start mb-4 p-1 " >
+                <a  href="seeDetail.html">see detail</a>
+                
+            </div>
+            
+            
+        </div>
+        
     </main>
 
-    <footer class="bg-primary p-3 rounded-top fixed-bottom">
+    <footer class="bg-primary p-3 rounded-top  mt-md-6">
         <p class="text-light text-center py-0 my-0">Copyright &copy; 2021 All rights reserved | Imala</p>
     </footer>
-    <script src="../js/report.js" lang="javascript" th:src="@{/js/report.js}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js "></script>
+    <script src="../js/scroll.js" lang="javascript" th:src="@{/js/scroll.js}"></script>
+    <!-- <script src="../js/report.js" lang="javascript" th:src="@{/js/report.js}"></script> -->
+
 </body>
 
 </html>
